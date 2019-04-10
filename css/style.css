@@ -1,0 +1,44 @@
+.cats-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.cats-list {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.cat {
+   display: none;
+   width: 500px;
+}
+img {
+  width: 400px;
+  margin: 0 auto;
+}
+
+p {
+  display: block;
+  font-size: 3rem;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  color: blue;
+  font-size: 1.4rem;
+}
+
+li {
+  cursor: pointer;
+}
+
+span {
+  display: block;
+  font-size: 2rem;
+}
